@@ -4,8 +4,8 @@ class Roary < Formula
   # doi "doi:10.1093/bioinformatics/btv421"
   # tag "bioinformatics"
 
-  url "https://github.com/sanger-pathogens/Roary/archive/v3.6.6.tar.gz"
-  sha256 "63859c34de32f85de4242e4c0eda05e986dea9c02d29fcb9be53251d4f8b76ce"
+  url "https://github.com/sanger-pathogens/Roary/archive/v3.13.0.tar.gz"
+  sha256 "375f83c8750b0f4dea5b676471e73e94f3710bc3a327ec88b59f25eae1c3a1e8"
 
   depends_on "Bio::Perl" => :perl
   depends_on "Bio::Roary" => :perl
