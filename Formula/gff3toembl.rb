@@ -7,7 +7,7 @@ class Gff3toembl < Formula
   sha256 "f5ec9e08660519be6be22b487c9acceabb629bb19c8e45bc09df74d15b2bdae7"
   head "https://github.com/sanger-pathogens/gff3toembl.git"
 
-  depends_on :python
+  depends_on "python"
   depends_on "genometools"
 
   def install
