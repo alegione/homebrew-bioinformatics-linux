@@ -8,7 +8,7 @@ class Pftools < Formula
   sha256 "abbe77bf7cdf2d5e813d672e81cb21ed23f68c66fcf4d30960626d8f6362fa84"
   version "2.3.5d"
 
-  depends_on :fortran
+  depends_on "fortran"
 
   def install
     ENV.deparallelize
